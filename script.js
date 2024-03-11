@@ -1,7 +1,14 @@
-let ep = 0;
-let gold = 50;
+let xp = 0;
 let health = 100;
-let currentWeapon = 0; // the first-word is lowercase
+let gold = 50;
+let currentWeapon = 0;
 let fighting;
+let monsterHealth;
+let inventory = ['stick', 'dagger', 'sword'];
+const button1 = document.querySelector('#button1');
+const button2 = document.querySelector('#button2');
+const button3 = document.querySelector('#button3');
 
-console.log('Ex:' + ep);
+const body = document.querySelector('body');
+
+console.log(body);
