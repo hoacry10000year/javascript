@@ -21,7 +21,6 @@ const goldText = document.querySelector('#goldText');
 const monsterStats = document.querySelector('#monsterStats');
 const monsterName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector('#monsterHealth');
-
 // initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
@@ -128,9 +127,9 @@ function update(location) {
 }
 
 // Go Store
-function goStore() {
-  update(locations[0]);
-}
+// function goStore() {
+//   update(locations[0]);
+// }
 function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
