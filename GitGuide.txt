@@ -6,3 +6,7 @@ git push origin --delete remoteBranchName
 
 // push branch
 git push -u origin <branch-name>
+
+
+// git branch 
+git branch -a
