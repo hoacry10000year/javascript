@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform Name
+    </p>
+    <form id="survey-form" action="post">
+      <!-- fieldset1 -->
+
+      <fieldset>
+        <label for="name-label" id="name-label"
+          >Name<input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Enter your name"
+        /></label>
+
+        <label for="email-label" id="email-label"
+          >Email<input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Enter your email"
+        /></label>
+
+        <label for="number-label" id="number-label"
+          >Number
+          <input
+            type="number"
+            name="number"
+            id="number"
+            min="10"
+            max="99"
+            required
+            placeholder="Enter your number"
+        /></label>
+        <!-- fieldset1 -->
+      </fieldset>
+
+      <!-- fieldset2 -->
+      <fieldset>
+        <label for=""
+          >Which option best describes your current role?
+          <select id="dropdown" name="">
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+          </select>
+        </label>
+      </fieldset>
+      <!-- fieldset2 -->
+
+      <!-- fieldset3 -->
+      <fieldset>
+        Would you recommend freeCodeCamp to a friend?
+        <label for=""
+          ><input
+            type="radio"
+            name="radio-check"
+            id=""
+            value="1"
+            class="inline"
+          />Definitely</label
+        >
+        <label for=""
+          ><input
+            type="radio"
+            name="radio-check"
+            id=""
+            value="2"
+            class="inline"
+          />Maybe</label
+        >
+        <label for=""
+          ><input
+            type="radio"
+            name="radio-check"
+            id=""
+            value="3"
+            class="inline"
+          />Not sure</label
+        >
+      </fieldset>
+      <!-- fieldset3 -->
+
+      <!-- fieldset4 -->
+      <fieldset>
+        What is your favorite color?
+        <label for="red">
+          <input
+            type="radio"
+            id="red"
+            name="color"
+            value="red"
+            class="inline"
+          />
+          Red
+        </label>
+        <label for="blue">
+          <input
+            type="radio"
+            id="blue"
+            name="color"
+            value="blue"
+            class="inline"
+          />
+          Blue
+        </label>
+        <label for="green">
+          <input
+            type="radio"
+            id="green"
+            name="color"
+            value="green"
+            class="inline"
+          />
+          Green
+        </label>
+      </fieldset>
+      <!-- fieldset4 -->
+
+      <!-- fieldset5 -->
+      <fieldset>
+        What would you like to see improved? (Check all that apply)
+        <label for="">
+          <input
+            type="radio"
+            name="checkbox-check"
+            id=""
+            value=""
+            class="inline"
+          />
+          Front-end
+        </label>
+        <label for="">
+          <input
+            type="radio"
+            name="checkbox-check"
+            id=""
+            value=""
+            class="inline"
+          />
+          Back-end P
+        </label>
+      </fieldset>
+      <!-- fieldset5 -->
+
+      <!-- fieldset6 -->
+      <fieldset>
+        Any comments or suggestions?
+        <label for="">
+          <textarea
+            name=""
+            id="comments"
+            placeholder="Enter your comments here"
+          ></textarea>
+        </label>
+      </fieldset>
+      <!-- fieldset6 -->
+
+      <div class="footer">
+        <input type="submit" name="" id="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
