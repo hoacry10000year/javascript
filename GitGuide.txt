@@ -10,3 +10,5 @@ git push -u origin <branch-name>
 
 // git branch 
 git branch -a
+
+git checkout -b
