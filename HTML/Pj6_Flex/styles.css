@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: '';
+  width: 350px;
+}
+
+/*
+// flex sap xep bo cuc item element
+ 
+ flex-direction sap xep huong cac item xep chong theo colum hay row 
+ error: lam tran element ra be ngoai neu ko co wrap
+ flex-direction: column column-revert theo cot va dao nguoc item
+ row row-revert
+
+ //flex-wrap: boc cac item khac vs sap xep tu dong can chinh width
+ wrap tu dogn can chinh width (tu dong xuong dong)
+ nowrap ko xuogn dong
+ 
+ flex-flow combines direction and wrap 
+ flex-flow: row wrap
+ 
+ //The justify-content property is used to align the flex items:
+ center
+ flex-start, flex-end: dau hoac cuoi
+ flex-around create space giua cac item dau giua vaf cuoi
+ flex-between: create space giuax ccac item ko tao dau va cuoi
+
+ gap khoang cach giua cac item khac vs pading margin
+*/
