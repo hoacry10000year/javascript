@@ -126,10 +126,9 @@ function update(location) {
   text.innerHTML = location['text'];
 }
 
-// Go Store
-// function goStore() {
-//   update(locations[0]);
-// }
+function goStore() {
+  update(locations[0]);
+}
 function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
@@ -340,4 +339,13 @@ function pickTwo() {
 }
 function pickEight() {
   pick(8);
+}
+const s = 'javascriptloops';
+const arr = [];
+const vow = 'aiueo';
+for (var i = 0; i <= s.length; i++) {
+  if (vow.includes(s[i])) {
+    arr.push(s[i]);
+    console.log(arr + '\n');
+  }
 }
