@@ -14,3 +14,11 @@ git branch -a
 git checkout -b
 
 https://drive.google.com/drive/folders/1j-F5_uNZzXfrFAOUAy-8IaNoMEZAxUKM?fbclid=IwZXh0bgNhZW0CMTAAAR2iWAe3hG-NzTW0XgftQreU0NReXRTiBqP90bgUzSLjF84eY1IE6paV2GU_aem_AeepPCk01OFfBlOLyDUagrpVIZekLaPNQDjKncMwftDyxk7eoJnD3V0OdzK9We9p2EfhLy-UIa5Llzgikqz0uMoX
+
+ls 
+cd ~ out
+mkdir tao thư mục
+rm xóa thư mục
+rm -i hỏi tr khi xóa
+mv di chuyển file
+type null tạo file

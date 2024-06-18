@@ -1,0 +1,16 @@
+/*
+    combinator neu co 2 element element1 chua class demo1
+    element 2 chu class demo1 va demo2
+ */
+
+P.demo1 { /*chon the p co class demo1*/
+  color: yellowgreen;
+}
+p.demo1.demo2 {
+    color: aqua;
+  }
+  
+.demo1 .demo2 {
+  /*chi chon alement co ca 2 class demo1 va demo2 */
+  color: red;
+}

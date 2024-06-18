@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+main {
+  width: 1000px;
+  height: 700px;
+  background-color: #995db5;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.parent {
+  width: 80%;
+  height: 80%;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center; /*can theo chieu ngang*/
+  align-items: center; /*can theo chieu doc*/
+  align-items: stretch; /*can theo chieu doc nhung se keo height == box1*/
+}
+.child {
+  background-color: orange;
+}
+.box1 {
+  /* height: 200px; */
+  background-color: orange;
+}
+.box2 {
+  /* height: 130px; */
+  background-color: orange;
+}
+.box3 {
+  /* height: 70px; */
+  background-color: orange;
+}

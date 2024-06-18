@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+.box {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  /* position: relative; */
+  width: 700px;
+  height: 700px;
+  margin: 50px;
+  background-color: brown;
+}
+.box1 {
+  background-color: aqua;
+  position: static; /*default */
+}
+.box2 {
+  background-color: blueviolet;
+  /* position: relative; dung de di chuyen dua tren  vi tri ban dau cua no ex:box2 */
+  /* top: 50px; cach vi tri top 50px left right bottom   */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box3 {
+  background-color: yellowgreen;
+}
+.shopping-cart {
+  position: absolute;
+  top: 20px;
+  font-size: 10rem;
+  left: 20px;
+}
+.number {
+  background-color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+/*
+    position : absolute
+    th1: khoi parent ko co position relative se dua element1 len mat phang moi va element2 sau no se dc dua len vi tri element1
+    luu y mat phang moi cua element1 se la element bao ham 
+
+    th2: neu parent element co position relative thi mat phang moi se nam tren elemt parent
+
+*/
