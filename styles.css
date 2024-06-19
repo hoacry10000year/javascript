@@ -1,0 +1,41 @@
+main {
+  width: 800px;
+  height: 800px;
+  background-color: aqua;
+}
+.box {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+}
+.box1 {
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+}
+.cat {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.cat-eyes {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
