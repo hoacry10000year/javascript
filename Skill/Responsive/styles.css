@@ -1,0 +1,76 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+/* @media (min-width: 600px) and (max-width: 1000px) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+} */
+/*
+    AND
+    width toi da ap dung css
+    max toi da can dat dc
+    min toi thieu can dat dc
+    --------|-----------------------|--------
+                600 den 1000px    
+    | break point khi dat den diem nay thi se thay doi    
+  */
+
+/* @media (max-width: 600px), (min-width: 1000px) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+} */
+/*
+        OR
+      width toi da ap dung css
+      max toi da can dat dc
+      min toi thieu can dat dc
+      --------|-----------------------|--------
+        600                               1000px
+      | break point khi dat den diem nay thi se thay doi    
+    */
+
+/* @media (orientation: landscape) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+} */
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  .box {
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+  }
+}
+@media (min-width: 1601px) {
+  .box {
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+  }
+}
