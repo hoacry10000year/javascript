@@ -1,0 +1,33 @@
+.box {
+  font-size: 100px;
+}
+.box1 {
+  font-size: 50%; /*=50% cua parent 100px*/
+}
+.box2 {
+  font-size: 20%; /*=20% parent la 100px*/
+}
+
+/*
+    element body chieu cao mac dinh theo size chu vidu default 38px,width,height,font-size..
+*/
+.parent {
+  width: 80vw;
+  height: 80vh;
+  background-color: blue;
+}
+.child1 {
+  width: 50vw;
+  height: 50vh;
+  background-color: aqua;
+}
+
+/*
+    viewport vh,vw hien thi theo khung nhin cua browser
+*/
+
+.parent_em {
+  width: 20em; /* 10* font-size cua elemtn hein tai if not lay theo parent elemtn nfi no tlay theo html root la 16px*/
+  height: 10em;
+  background-color: brown;
+}

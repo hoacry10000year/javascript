@@ -1,0 +1,122 @@
+/* css reset */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  min-width: 290px;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+#main-header {
+  min-width: 280px;
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+}
+#navbar {
+  height: 100%;
+  border-right: solid 2.5px #98a1a1;
+}
+#title {
+  font-size: 1.8rem;
+  padding: 10px;
+  text-align: center;
+}
+#navbar ul {
+  padding: 0;
+  overflow-y: auto; /*tuy y neu neu chieu dai qua ni*/
+  overflow-x: hidden; /*an thanh cuon */
+  height: 90%;
+  list-style: none;
+  margin: 1rem 0;
+}
+#navbar ul li {
+  color: #4d4e53;
+  text-align: left;
+  border-top: solid 0.5px #333;
+}
+.nav-link {
+  display: block;
+  padding: 10px 30px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: #4d4e53;
+}
+
+#main-doc {
+  background-color: #ffffff;
+  position: absolute;
+  left: 310px;
+  padding: 20px;
+}
+#main-doc header {
+  line-height: 2.7rem;
+  text-align: left;
+  font-size: 1.8rem;
+}
+.main-article {
+  font-size: 0.96rem;
+  margin: 15px;
+}
+.main-article p {
+  font-size: 0.96rem;
+  margin: 15px 0;
+  color: #4d4e53;
+}
+.main-article ul {
+  margin: 15px 0;
+}
+
+.main-article ul li {
+  color: #4d4e53;
+  margin: 15px 0 0 20px;
+}
+
+.main-article code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  /* position: relative; */
+  /* word-break: normal;
+  word-wrap: normal; */
+  line-height: 1.56rem;
+  background-color: #f7f7f7;
+  color: #4d4e53;
+  font-size: 0.8rem;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 875px) {
+  #main-header {
+    position: absolute; /*nam 1 minh tren 1 mat phang nen margin ko dc*/
+    top: 0;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    max-height: 400px;
+  }
+
+  #navbar {
+    width: 100%;
+    margin: 0;
+  }
+  .main-article code {
+    background-color: #f7f7f7;
+    font-size: 12.48px;
+    margin-left: 10px;
+  }
+  #main-doc {
+    position: relative;
+    left: 0;
+    margin-top: 500px;
+    padding: 2rem 1rem;
+  }
+}
